@@ -7,6 +7,12 @@
   font-variation-settings:
     "wdth" 100;
 }
+/* shared design */
+p{
+    font-size: 20px;
+    font-weight:400;
+    color: #070211a6;
+}
 
     
 /*//   header design  //*/
@@ -186,9 +192,13 @@ box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.836);
 .circle {
   height: 465px;
   width: 465px;
-  background-color: #ec0707;
+  border-left:20px solid #FF0000;
+  border-top: 20px solid #FF0000;
+  border-right:20px solid #FF0000;
+  border-bottom:20px solid #FF0000;
    border-radius: 50% ; 
    align-items: center;
+  
     
 } 
 
@@ -206,5 +216,17 @@ box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.836);
 .container-3{
     height: 140px;
     width: 140px;
-    padding-left: 160px;
+    padding-left: 120px;
+}
+/*//   section-five   //*/
+
+.sec-five-text{
+  
+  text-align: center;
+  padding-left: 126px;
+  padding-right: 126px;
+}
+.sec-five-photo{
+    display: flex;
+    justify-content: space-between;
 }
