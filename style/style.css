@@ -168,7 +168,7 @@ color: black;
  padding: 100px 386px 0 386px ;
 
 }
-button{
+.sec-three-container button{
 font-size: 32px;
 font-weight: 600;
 padding: 20px 30px;
@@ -177,4 +177,34 @@ border-radius: 20px;
 background-color: #FF0000;
 box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.836);
 
+}
+.section-four{
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+.circle {
+  height: 465px;
+  width: 465px;
+  background-color: #ec0707;
+   border-radius: 50% ; 
+   align-items: center;
+    
+} 
+
+.image{
+  /* border: 30px solid rgb(146, 143, 143); */
+  /* border-radius: 50%; */
+    height: 365px;
+   width: 365px;
+   align-items: center;
+   padding: 50px;
+
+
+}
+
+.container-3{
+    height: 140px;
+    width: 140px;
+    padding-left: 160px;
 }
