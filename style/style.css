@@ -66,7 +66,10 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: green;
+    cursor: pointer;
+    
 }
+
 /* banner design */
 
 .banner{
@@ -143,6 +146,7 @@ padding: 0 0 0 126px;
     list-style: none;
     text-align:none;
     text-decoration: none;
+   
 }
 .section-two img{
     width: 320px;
@@ -166,6 +170,7 @@ margin: 120px 0;
 .primary-text-2{
     color: white;
 }
+
 .sec-three-container{
    text-align: center;
 }
@@ -185,8 +190,10 @@ border: none;
 border-radius: 20px;
 background-color: #FF0000;
 box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.836);
+cursor: pointer;
 
 }
+/*//  section four //*/
 .section-four{
     display: flex;
     justify-content: space-between;
@@ -286,11 +293,11 @@ background-image: url(../images/Rectangle\ 2.png);
    
 }
 
-
+/* 
 img:hover{
     background-color: rgb(112, 43, 241);
     cursor: pointer;
-}
+} */
 /*//  section eight  //*/
 .section-eight{
    text-align: center;
@@ -324,5 +331,6 @@ border-radius: 0 20px 20px 0;
 color: hsl(0, 24%, 90%);
 background-color: #FF0000;
 border: none;
+cursor: pointer;
 
 }
